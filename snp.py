@@ -128,6 +128,10 @@ class snp(commands.Cog):
             return self.lRole
         elif 'ps' in mods:
             return self.pRole
+        if 'cs' in mods:
+            return self.cRole
+        if 'ms' in mods:
+            return self.mRole
         else:
             return 'N/A'
     
